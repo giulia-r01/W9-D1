@@ -24,6 +24,18 @@ function App() {
           schivo, che vive nelle foreste dell'Asia.
         </p>
         <ButtonComponent text="Scopri di più" />
+        <ImageComponent
+          src="https://t3.ftcdn.net/jpg/01/73/37/16/360_F_173371622_02A2qGqjhsJ5SWVhUPu0t9O9ezlfvF8l.jpg"
+          alt="Orsetto lavatore"
+          width={400}
+        />
+        <p>
+          L'orsetto lavatore vive in Nord America. È chiamato dagli Americani
+          “raccoon”. Il nome deriva dalla parola indiana “arakum”, che significa
+          “lui graffia con le zampe”. L'orsetto lavatore è poco più grande di un
+          gatto. Le dita sono lunghe con robusti artigli.
+        </p>
+        <ButtonComponent text="Scopri di più" />
       </main>
     </>
   )
